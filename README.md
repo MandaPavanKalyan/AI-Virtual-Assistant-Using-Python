@@ -49,7 +49,12 @@
 Ensure Python is installed and install the required dependencies:
 
 ```bash
+# Installation
 pip install pyttsx3 SpeechRecognition wikipedia
+```
+
+---
+
 ## Model Performance
 - **Speech recognition accuracy**: Depends on microphone quality and background noise.
 - **Wikipedia search reliability**: Fetches relevant summaries.
@@ -59,17 +64,22 @@ pip install pyttsx3 SpeechRecognition wikipedia
 
 ## Example Output
 
-```sql
+```plaintext
 Listening...
 Recognizing...
 User said: "What time is it?"
 Sir, the time is 15:30:12
+```
 
+```plaintext
 Listening...
 Recognizing...
 User said: "Search Wikipedia for Python programming"
 According to Wikipedia:
 Python is an interpreted, high-level, general-purpose programming language...
+```
+
+---
 
 ## Future Enhancements
 - Add **multi-language support**.
@@ -81,4 +91,5 @@ Python is an interpreted, high-level, general-purpose programming language...
 
 ## Author
 Developed by **[Manda Pavan Kalyan]**
+
 
